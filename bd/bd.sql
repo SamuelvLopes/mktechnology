@@ -1,0 +1,7 @@
+
+CREATE DATABASE mydb;
+USE mydb;
+CREATE TABLE `mydb`.`table1` (
+`id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(255),
+  PRIMARY KEY (ID));
