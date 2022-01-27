@@ -2,7 +2,7 @@
 namespace App\Libraries;
 class Template {
  
-		function show($view, $data=array()){
+		function show($view, $data){
  			
 			// Load header
 			echo view('template/header',$data);

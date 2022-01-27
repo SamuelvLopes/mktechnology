@@ -6691,3 +6691,261 @@ CRITICAL - 2022-01-26 06:15:10 --> Invalid file: checkout.php
 #6 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
 #7 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #8 {main}
+ERROR - 2022-01-26 09:26:37 --> Unknown column 'key' in 'where clause'
+CRITICAL - 2022-01-26 09:26:37 --> Call to a member function getResult() on bool
+#0 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#1 /app/myapp/app/Controllers/Produto.php(21): CodeIgniter\BaseModel->findAll()
+#2 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->cadastro()
+#3 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-26 09:30:40 --> Use of undefined constant root - assumed 'root' (this will throw an Error in a future version of PHP)
+#0 /app/myapp/app/Controllers/Produto.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->cadastro()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 09:36:21 --> syntax error, unexpected ';', expecting ']'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 09:36:31 --> sha1() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/app/Controllers/Produto.php(28): sha1()
+#2 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->cadastro()
+#3 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-26 09:36:40 --> Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP)
+#0 /app/myapp/app/Controllers/Produto.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->cadastro()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 09:41:37 --> syntax error, unexpected ';', expecting ']'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 09:41:46 --> Call to a member function update() on null
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->cadastro()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-26 09:42:04 --> There is no data to update.
+#0 /app/myapp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /app/myapp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#2 /app/myapp/app/Controllers/Produto.php(31): CodeIgniter\Model->update()
+#3 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->cadastro()
+#4 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-26 09:48:06 --> Cannot use object of type app\Models\ApiKeyModel as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->cadastro()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-26 10:04:16 --> syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-26 10:31:04 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 10:31:34 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 10:33:37 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 10:36:38 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 10:37:21 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 10:37:25 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 10:46:03 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-01-26 11:03:56 --> syntax error, unexpected ';', expecting ')'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-26 11:04:44 --> Column 'nome' cannot be null
+ERROR - 2022-01-26 11:04:44 --> Column 'caminho' cannot be null
+ERROR - 2022-01-26 11:04:44 --> Column 'codprod' cannot be null
+CRITICAL - 2022-01-26 11:05:21 --> Class 'App\Models\CategotyModel' not found
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->criarcategoria()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-26 11:06:15 --> Column 'nome' cannot be null
+CRITICAL - 2022-01-26 11:07:55 --> Call to a member function where() on null
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->criarcategoria()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-26 11:28:36 --> syntax error, unexpected '*'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 11:29:00 --> Call to a member function where() on null
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->cadastro()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-26 11:31:11 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:31:11 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:32:18 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:32:18 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:33:51 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:33:51 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:34:45 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:34:45 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:35:34 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:35:34 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:38:23 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:38:23 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:39:51 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:39:51 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:41:57 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:41:57 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:42:21 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:42:21 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:43:24 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:43:24 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:43:26 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:43:27 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:44:46 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:45:01 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-01-26 11:45:01 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:45:41 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:46:30 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:47:54 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:48:22 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:50:36 --> Column 'id_image' cannot be null
+ERROR - 2022-01-26 11:50:50 --> Column 'id_image' cannot be null
+CRITICAL - 2022-01-26 11:58:12 --> Cannot use object of type stdClass as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Produto->cadastro()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-26 12:02:14 --> syntax error, unexpected '}', expecting end of file
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 13:13:50 --> Object of class stdClass could not be converted to string
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-26 13:27:14 --> array_push() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/app/Controllers/Home.php(18): array_push()
+#2 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#3 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-26 13:38:29 --> Argument 2 passed to view() must be of the type array, null given, called in /app/myapp/app/Libraries/Template.php on line 8
+#0 /app/myapp/app/Libraries/Template.php(8): view()
+#1 /app/myapp/app/Controllers/Home.php(21): App\Libraries\Template->show()
+#2 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#3 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-26 13:45:56 --> Use of undefined constant valor - assumed 'valor' (this will throw an Error in a future version of PHP)
+#0 /app/myapp/app/Views/home.php(90): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/View/View.php(210): include('/app/myapp/app/...')
+#2 /app/myapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/myapp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /app/myapp/app/Libraries/Template.php(12): view()
+#5 /app/myapp/app/Controllers/Home.php(21): App\Libraries\Template->show()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-26 14:12:21 --> syntax error, unexpected '}'
+#0 /app/myapp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/myapp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /app/myapp/system/CodeIgniter.php(790): class_exists()
+#5 /app/myapp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-26 14:13:42 --> Creating default object from empty value
+#0 /app/myapp/app/Controllers/Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 14:14:08 --> Creating default object from empty value
+#0 /app/myapp/app/Controllers/Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 14:15:58 --> Creating default object from empty value
+#0 /app/myapp/app/Controllers/Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 14:16:14 --> Creating default object from empty value
+#0 /app/myapp/app/Controllers/Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 14:17:51 --> Creating default object from empty value
+#0 /app/myapp/app/Controllers/Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 14:22:12 --> Creating default object from empty value
+#0 /app/myapp/app/Controllers/Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 14:31:16 --> Cannot use object of type stdClass as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-26 14:31:40 --> Cannot use object of type stdClass as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

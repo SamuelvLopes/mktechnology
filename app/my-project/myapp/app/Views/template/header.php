@@ -51,7 +51,7 @@
         	<div class="row">
             	<div class="col-md-6">
                     <ul class="header_list text-md-left text-center">
-                        <li><a href="tel:+ 00 123 456 789"><i class="fa fa-phone"></i>+55 81 9 88275380</a></li>
+                        <li><a href="wa.me/5581988275380"><i class="fa fa-phone"></i>+55 81 9 88275380</a></li>
                         <li><a href="mailto:info@gmail.com"><i class="fa fa-envelope-o"></i>samuelvitorprofissional@gmail.com</a></li>
                     </ul>
                 </div>
@@ -99,7 +99,7 @@
                             </div>
                         </li>
                       <!--  <li><a href="#">Wishlist</a></li>-->
-                        <li><a href="my-account.html">Minha Conta</a></li>
+                        <li><a href="nimplementado">Minha Conta</a></li>
                     </ul>
                 </div>
             </div>
@@ -115,16 +115,17 @@
                         </div>
                         <form class="header-form">
                         <input class="search-box" placeholder="Procurar produto"  required value="" type="search">
-                        <button type="submit">Search</button>
+                        <button type="submit">Buscar</button>
                     </form>
                     	<div class="header-right">
                         	<div class="header-cart">
                             <a href="#">
                                 <div class="cart-icon">
                                     <img src="<?php echo base_url();?>/image/cart-icon.png" alt="cart-icon">
-                                    <span>01</span>
+                                   <div id="qtd_itens"></div>
+                                    <!-- <span>01</span>-->
                                 </div>
-                                R$ 237.00<i class="fa fa-angle-down"></i>
+                                R$ 0.0<i class="fa fa-angle-down"></i>
                             </a>
                             <div class="cart-box">
                                 <div class="cart-info">
