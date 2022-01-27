@@ -92,6 +92,7 @@
                 $url=$produto['url'];
                 $nome=$produto['nome'];
                 $valor=$produto['valor'];
+                $code=$produto['codigo'];
                 $valormaior=$valor+5;
                 $tag=md5("$url $nome");
                 echo"
@@ -101,7 +102,7 @@
                             	<img src='$url' alt='product-img'>
                                 <div class='hover-option'>
                                 	<div class='add-cart-btn'>
-                                    	<a href='#' class='btn btn-primary'>Adicionar ao carrinho</a>
+                                    	<a href='#' onclick='add_carrinho(1,$code)' class='btn btn-primary'>Adicionar ao carrinho</a>
                                     </div>
                                 	<ul class='hover-icon'>
                                     	<li><a href='#'><i class='fa fa-heart'></i></a></li>

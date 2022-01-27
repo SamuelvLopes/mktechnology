@@ -53,7 +53,7 @@
                                                         
                                                     </div>
                                                    	<p>Comprar na sua conta nao e obrigatorio mesmo que seja o indicado</p>
-                                                    <button class="btn btn-primary btn-next" type="button">Continue</button>
+                                                    <button class="btn btn-primary btn-next" onclick='document.getElementById("segundo-menu").click()' type="button">Continue</button>
                                                 </div>
                                                 <div class="checkout-form col-md-6">
                                                     <div class="form-title">
@@ -82,7 +82,7 @@
                             <div class="card">
                                 <div class="card-header form-wizard-step">
                                     <h5>
-                                         <a class="btn btn-link collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span>02</span>Dados do cliente</a>
+                                         <a class="btn btn-link collapsed" id='segundo-menu' data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span>02</span>Dados do cliente</a>
                                     </h5>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -305,15 +305,15 @@
                                                     <tfoot>
                                                         <tr class="row-4">
                                                             <td class="text-left" colspan="3">Subtotal</td>
-                                                            <td class="pr_subtotal">$237.00</td>
+                                                            <td class="pr_subtotal">R$237.00</td>
                                                         </tr>
-                                                        <tr class="row-5">
+                                                        <!--<tr class="row-5">
                                                             <td class="text-left" colspan="3">Cupom de desconto</td>
                                                             <td class="pr_subtotal">-$5.00</td>
-                                                        </tr>
+                                                        </tr>-->
                                                         <tr class="row-6">
                                                             <td class="text-left" colspan="3">Total</td>
-                                                            <td class="product-subtotal">$232.00</td>
+                                                            <td class="product-subtotal">R$232.00</td>
                                                         </tr>
                                                     </tfoot>
                                                 </table>
@@ -337,14 +337,14 @@
                     </div>
                     <div class="ci-caption">
                         <ul>
-                        	<li>Subtotal <span>$237.00</span></li>
-                            <li>Frete <span>Free</span></li>
-                            <li>Codigo de desconto <span>-$5.00</span></li>
+                        	<li>Subtotal <span>R$237.00</span></li>
+                            <li>Frete <span>Gratis</span></li>
+                            <!--<li>Codigo de desconto <span>-$5.00</span></li>-->
                         </ul>
                     </div>
                     <div class="ci-btn">
                         <ul>
-                        	<li>Total<span>$232.00</span></li>
+                        	<li>Total<span>R$232.00</span></li>
                         </ul>
                     </div>
                 </div>

@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
 
- <meta http-equiv="refresh" content="120">
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -123,40 +122,12 @@
                                 <div class="cart-icon">
                                     <img src="<?php echo base_url();?>/image/cart-icon.png" alt="cart-icon">
                                    <div id="qtd_itens"></div>
-                                    <!-- <span>01</span>-->
+                                    <div id="contador_carrinho"></div>
                                 </div>
-                                R$ 0.0<i class="fa fa-angle-down"></i>
+                                 <text id="expositor_preco"> R$ 0</text><i class="fa fa-angle-down"></i>
                             </a>
-                            <div class="cart-box">
-                                <div class="cart-info">
-                                <div class="cart-prodect d-flex">
-                                    <div class="cart-img">
-                                        <img src="<?php echo base_url();?>/image/cart-img-1.png" alt="cart-img">
-                                    </div>
-                                    <div class="cart-product">
-                                        <a href="#">Ornare sed consequat</a>
-                                        <p>$ 81.00</p>
-                                    </div>
-                                    <a href="#" class="close-icon d-flex align-items-center"><i class="ion-close"></i></a>
-                                </div>
-                                <div class="cart-prodect d-flex">
-                                    <div class="cart-img">
-                                        <img src="<?php echo base_url();?>/image/cart-img-2.png" alt="cart-img">
-                                    </div>
-                                    <div class="cart-product">
-                                        <a href="#">Pellentesque posuere</a>
-                                        <p>$ 80.00</p>
-                                    </div>
-                                    <a href="#" class="close-icon d-flex align-items-center"><i class="ion-close"></i></a>
-                                </div>
-                            </div>
-                                <div class="price-prodect d-flex align-items-center justify-content-between">
-                                <p class="total">total</p>
-                                <p class="total-price">$ 161.00</p>
-                            </div>
-                                <div class="cart-btn">
-                                <a href="carrinho" class="btn btn-primary">Carrinho</a>
-                            </div>
+                            <div class="cart-box" id="mini_cart">
+                               Carrinho vazio!
                             </div>
                     	</div>
                         	<div class="d-lg-none mm_icon">

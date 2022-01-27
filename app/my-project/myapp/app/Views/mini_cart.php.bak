@@ -1,0 +1,51 @@
+<?php  var_dump($produtos);
+
+
+                         echo" <div class='cart-info'>
+                                
+                                <div class='cart-prodect d-flex'>
+                                    <div class='cart-img'>
+                                        <img src='<?php echo base_url();?>/image/cart-img-2.png' alt='cart-img'>
+                                    </div>
+                                    <div class='cart-product'>
+                                        <a href='#'>Pellentesque posuere</a>
+                                        <p>$ 80.00</p>
+                                    </div>
+                                    <a href='#' class='close-icon d-flex align-items-center'><i class='ion-close'></i></a>
+                                </div>
+
+                            </div>
+                                <div class='price-prodect d-flex align-items-center justify-content-between'>
+                                <p class='total'>total</p>
+                                <p class='total-price'>R$ 161.00</p>
+                            </div>
+                                <div class='cart-btn'>
+                                <a href='carrinho' class='btn btn-primary'>Carrinho</a>
+                            </div>
+                            ";
+                            ?>
+							
+							echo"<div class='cart-info'>";
+                            foreach($produtos as $item){
+								
+                                echo"<div class='cart-prodect d-flex'>
+                                    <div class='cart-img'>
+                                        <img src='<?php echo base_url();?>/image/cart-img-2.png' alt='cart-img'>
+                                    </div>
+                                    <div class='cart-product'>
+                                        <a href='#'>Pellentesque posuere</a>
+                                        <p>$ 80.00</p>
+                                    </div>
+                                    <a href='#' class='close-icon d-flex align-items-center'><i class='ion-close'></i></a>
+                                </div>";
+							$total=$total+$item['valor'];
+							}
+							echo"
+                            </div>
+                                <div class='price-prodect d-flex align-items-center justify-content-between'>
+                                <p class='total'>total</p>
+                                <p class='total-price'>R$ $total</p>
+                            </div>
+                                <div class='cart-btn'>
+                                <a href='carrinho' class='btn btn-primary'>Carrinho</a>
+                            </div>";

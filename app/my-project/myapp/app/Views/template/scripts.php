@@ -24,16 +24,19 @@
 <!-- Price Slider js -->
 <script src="<?php echo base_url();?>/js/jquery-price-slider.js" type="text/javascript"></script>
 <!-- jquery.elevatezoom js -->
-<script src="<?php echo base_url();?>/js/jquery.elevatezoom.js' type="text/javascript"></script>
+<script src="<?php echo base_url();?>/js/jquery.elevatezoom.js" type="text/javascript"></script>
 <!-- imagesloaded.pkgd.min js -->
-<script src="<?php echo base_url();?>/js/imagesloaded.pkgd.min.js' type="text/javascript"></script>
+<script src="<?php echo base_url();?>/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
 <!-- isotope.min js -->
-<script src="<?php echo base_url();?>/js/isotope.min.js' type="text/javascript"></script>
+<script src="<?php echo base_url();?>/js/isotope.min.js" type="text/javascript"></script>
 <!-- jquery.fitvids js -->
-<script src="<?php echo base_url();?>/js/jquery.fitvids.js' type="text/javascript"></script>
+<script src="<?php echo base_url();?>/js/jquery.fitvids.js" type="text/javascript"></script>
 <!-- mCustomScrollbar.concat.min js -->
 <script src="<?php echo base_url();?>/js/mCustomScrollbar.concat.min.js" type="text/javascript"></script>
 <!-- Custom css -->
 <script src="<?php echo base_url();?>/js/custom.js" type="text/javascript"></script> 
+<script src="<?php echo base_url();?>/js/app.js" type="text/javascript"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
 </body>
 </html>	
