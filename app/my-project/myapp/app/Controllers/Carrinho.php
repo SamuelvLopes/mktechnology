@@ -38,9 +38,11 @@ class Carrinho extends BaseController{
 
 
             $_SESSION['total']=$total;
+
            $data=array(
             'produtos'=>$lista_produtos
           );
+
         $template->show("carrinho", $data);
 
     }

@@ -929,3 +929,212 @@ CRITICAL - 2022-01-27 07:06:34 --> Call to a member function show() on null
 #2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
 #3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2022-01-27 08:40:23 --> Cannot use object of type stdClass as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 08:40:48 --> syntax error, unexpected 'array_push' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 08:53:20 --> Use of undefined constant linha - assumed 'linha' (this will throw an Error in a future version of PHP)
+#0 /app/myapp/app/Views/checkout.php(299): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/View/View.php(210): include('/app/myapp/app/...')
+#2 /app/myapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/myapp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /app/myapp/app/Libraries/Template.php(12): view()
+#5 /app/myapp/app/Controllers/Checkout.php(45): App\Libraries\Template->show()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-27 08:54:05 --> Use of undefined constant linha - assumed 'linha' (this will throw an Error in a future version of PHP)
+#0 /app/myapp/app/Views/checkout.php(299): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/View/View.php(210): include('/app/myapp/app/...')
+#2 /app/myapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/myapp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /app/myapp/app/Libraries/Template.php(12): view()
+#5 /app/myapp/app/Controllers/Checkout.php(45): App\Libraries\Template->show()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-27 08:55:01 --> Use of undefined constant linha - assumed 'linha' (this will throw an Error in a future version of PHP)
+#0 /app/myapp/app/Views/checkout.php(299): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/View/View.php(210): include('/app/myapp/app/...')
+#2 /app/myapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/myapp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /app/myapp/app/Libraries/Template.php(12): view()
+#5 /app/myapp/app/Controllers/Checkout.php(45): App\Libraries\Template->show()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-27 08:55:23 --> Use of undefined constant linha - assumed 'linha' (this will throw an Error in a future version of PHP)
+#0 /app/myapp/app/Views/checkout.php(299): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/View/View.php(210): include('/app/myapp/app/...')
+#2 /app/myapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /app/myapp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /app/myapp/app/Libraries/Template.php(12): view()
+#5 /app/myapp/app/Controllers/Checkout.php(45): App\Libraries\Template->show()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-27 09:37:20 --> syntax error, unexpected ''email'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 09:38:41 --> syntax error, unexpected '}', expecting end of file
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 09:38:50 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 09:43:40 --> Use of undefined constant nul - assumed 'nul' (this will throw an Error in a future version of PHP)
+#0 /app/myapp/app/Controllers/Pedido.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Pedido->gerar_pedido()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 09:48:59 --> There is no data to insert.
+#0 /app/myapp/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /app/myapp/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#2 /app/myapp/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#3 /app/myapp/app/Controllers/Pedido.php(53): CodeIgniter\Model->insert()
+#4 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Pedido->gerar_pedido()
+#5 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-27 09:49:22 --> Column 'nome' cannot be null
+ERROR - 2022-01-27 09:52:19 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 09:54:04 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 09:54:07 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 09:55:00 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 09:55:17 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 09:55:32 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 09:57:14 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 09:57:55 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 09:58:52 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 09:59:01 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 10:00:13 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 10:02:31 --> Column 'logradouro' cannot be null
+ERROR - 2022-01-27 10:03:21 --> Column 'logradouro' cannot be null
+CRITICAL - 2022-01-27 10:55:12 --> syntax error, unexpected '}'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 11:20:31 --> syntax error, unexpected '"valor"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 11:20:49 --> syntax error, unexpected '"valor"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 11:21:02 --> syntax error, unexpected '"valor"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 11:22:25 --> Cannot use object of type stdClass as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Pedido->gerar_pedido()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 11:23:25 --> syntax error, unexpected '"valor"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 11:23:54 --> syntax error, unexpected '"valor"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /app/myapp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /app/myapp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /app/myapp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 11:24:12 --> Cannot use object of type app\Models\ProdutoModel as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Pedido->gerar_pedido()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 11:24:38 --> Cannot use object of type app\Models\ProdutoModel as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Pedido->gerar_pedido()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 11:24:45 --> Cannot use object of type app\Models\ProdutoModel as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Pedido->gerar_pedido()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 11:24:48 --> Cannot use object of type app\Models\ProdutoModel as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Pedido->gerar_pedido()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 11:25:27 --> Cannot use object of type app\Models\ProdutoModel as array
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Pedido->gerar_pedido()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-27 11:36:26 --> Unknown column 'data' in 'where clause'
+CRITICAL - 2022-01-27 11:36:26 --> Call to a member function getResult() on bool
+#0 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#1 /app/myapp/app/Controllers/Pedido.php(96): CodeIgniter\BaseModel->findAll()
+#2 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Pedido->gerar_pedido()
+#3 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 11:36:35 --> Unknown column 'data' in 'where clause'
+CRITICAL - 2022-01-27 11:36:35 --> Call to a member function getResult() on bool
+#0 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#1 /app/myapp/app/Controllers/Pedido.php(96): CodeIgniter\BaseModel->findAll()
+#2 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Pedido->gerar_pedido()
+#3 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

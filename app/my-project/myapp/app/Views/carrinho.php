@@ -106,7 +106,7 @@
                     </div>
                     <div class="ci-caption">
                         <ul>
-                        	<li>Subtotal <span>$237.00</span></li>
+                        	<li>Subtotal <span>R$ <?php $total?></span></li>
                             <li>Total <span>$237.00</span></li>
 
                         </ul>

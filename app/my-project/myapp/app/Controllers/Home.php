@@ -17,6 +17,7 @@ class Home extends BaseController
        $lista_produtos=array();
 
        foreach($produtos as $linha){
+      
        $produtos=(array) $linha;
        $produtos['url']=$imagemodel->where('id_image',$produtos['codprod'])->findAll()[0]->caminho;
        $produtos['codigo']=$imagemodel->where('id_image',$produtos['codprod'])->findAll()[0]->id_image;

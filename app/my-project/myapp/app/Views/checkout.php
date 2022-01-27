@@ -92,31 +92,35 @@
                                                 <div class="row">
                                                 <div class="form-group col-md-6">
                                                     <label>Nome  <span class="required_sign">*</span></label>
-                                                    <input class="form-control required" placeholder="Insira seu nome" value="" type="text">
+                                                    <input id='nome' class="form-control required" placeholder="Insira seu nome" value="" type="text">
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <label>Sobrenome <span class="required_sign">*</span></label>
-                                                    <input class="form-control required" placeholder="Insira seu sobrenome" value="" type="text">
+                                                    <input id='sobrenome' class="form-control required" placeholder="Insira seu sobrenome" value="" type="text">
+                                                </div>
+                                                 <div class="form-group col-md-6">
+                                                    <label>CPF <span class="required_sign">*</span></label>
+                                                    <input id='cpf' class="form-control required" placeholder="Insira seu CPF" value="" type="text">
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <label>Email <span class="required_sign">*</span></label>
-                                                    <input class="form-control required" placeholder="Insira seu email" value="" type="email">
+                                                    <input id='email' class="form-control required" placeholder="Insira seu email" value="" type="email">
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <label>Telefone <span class="required_sign">*</span></label>
-                                                    <input  class="form-control required" placeholder="Insira seu telefone" value="" type="text">
+                                                    <input input='telefone' class="form-control required" placeholder="Insira seu telefone" value="" type="text">
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <label>Cep <span class="required_sign">*</span></label>
-                                                    <input class="form-control required" placeholder="Insira seu CEP" value="" type="text">
+                                                    <input input='cep' class="form-control required" placeholder="Insira seu CEP" value="" type="text">
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <label>Logradouro <span class="required_sign">*</span></label>
-                                                    <input class="form-control required" placeholder="Insira seu Logradouro" value="" type="text">
+                                                    <input input='logradouro' class="form-control required" placeholder="Insira seu Logradouro" value="" type="text">
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                         <label>Numero <span class="required_sign">*</span></label>
-                                                        <input class="form-control required" placeholder="Insira seu numero ou S/N" value="" type="text">
+                                                        <input input='numero' class="form-control required" placeholder="Insira seu numero ou S/N" value="" type="text">
                                                     </div>
                                                 <div class="form-group col-md-6">
                                                     <label>Pais <span class="required_sign">*</span></label>
@@ -132,24 +136,24 @@
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <label>Cidade <span class="required_sign">*</span></label>
-                                                    <input class="form-control required" placeholder="Insira sua cidade" value="" type="text">
+                                                    <input id='cidade' class="form-control required" placeholder="Insira sua cidade" value="" type="text">
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <label>Estado <span class="required_sign">*</span></label>
-                                                    <input class="form-control required" placeholder="Insira seu estado" value="" type="text">
+                                                    <input id='estado' class="form-control required" placeholder="Insira seu estado" value="" type="text">
                                                 </div>
                                                
                                                 <div class="form-group col-md-6">
                                                 	<div class="form-check mt-md-3">
                                                         <label>Os dados de entrega sera os do comprador
-                                                            <input class="defult-check" type="checkbox" checked="checked">
+                                                            <input id='dulicarpentrega' class="defult-check" type="checkbox" checked="checked">
                                                             <span class="checkmark"></span>
                                                         </label>
                                                     </div>
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <div class="form-wizard-buttons text-md-right">
-                                                        <button class="btn btn-primary btn-submit btn-next" type="button">Continuar</button>
+                                                        <button onclick="document.getElementById('terceiro-menu').click()" class="btn btn-primary btn-submit btn-next" type="button">Continuar</button>
                                                     </div>
                                                 </div>
                                                 </div>
@@ -161,7 +165,7 @@
                             <div class="card">
                                 <div class="card-header form-wizard-step">
                                     <h5>
-                                         <a class="btn btn-link collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span>03</span>Dados de entrega</a>
+                                         <a class="btn btn-link collapsed" id="terceiro-menu" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span>03</span>Dados de entrega</a>
                                     </h5>
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -171,31 +175,31 @@
                                                 <div class="row">
                                                     <div class="form-group col-md-6">
                                                         <label> Nome <span class="required_sign">*</span></label>
-                                                        <input class="form-control required" placeholder="Insira seu nome" value="" type="text">
+                                                        <input class="form-control required" id="nome_entrega" placeholder="Insira seu nome" value="" type="text">
                                                     </div>
                                                     <div class="form-group col-md-6">
                                                         <label>Sobrenome <span class="required_sign">*</span></label>
-                                                        <input class="form-control required" placeholder="Insira seu sobrenome" value="" type="text">
+                                                        <input class="form-control required"  id="sobrenome_entrega" placeholder="Insira seu sobrenome" value="" type="text">
                                                     </div>
                                                     <div class="form-group col-md-6">
                                                         <label>Email <span class="required_sign">*</span></label>
-                                                        <input class="form-control required" placeholder="Insira seu email" value="" type="email">
+                                                        <input class="form-control required" id="email_entrega" placeholder="Insira seu email" value="" type="email">
                                                     </div>
                                                     <div class="form-group col-md-6">
                                                         <label>Telefone <span class="required_sign">*</span></label>
-                                                        <input  class="form-control required" placeholder="Insira seu telefone" value="" type="text">
+                                                        <input  class="form-control required" id="telefone_entrega" placeholder="Insira seu telefone" value="" type="text">
                                                     </div>
                                                  <div class="form-group col-md-6">
                                                     <label>Cep <span class="required_sign">*</span></label>
-                                                    <input class="form-control required" placeholder="Insira seu CEP" value="" type="text">
+                                                    <input class="form-control required" id="cep_entrega" placeholder="Insira seu CEP" value="" type="text">
                                                 </div>
                                                     <div class="form-group col-md-6">
                                                         <label>Logradouro <span class="required_sign">*</span></label>
-                                                        <input class="form-control required" placeholder="Insira seu Logradouro" value="" type="text">
+                                                        <input class="form-control required" id="logradou_entrega" placeholder="Insira seu Logradouro" value="" type="text">
                                                     </div>
                                                     <div class="form-group col-md-6">
                                                         <label>Numero <span class="required_sign">*</span></label>
-                                                        <input class="form-control required" placeholder="Insira seu numero ou S/N" value="" type="text">
+                                                        <input class="form-control required" id="numero_entrega" placeholder="Insira seu numero ou S/N" value="" type="text">
                                                     </div>
                                                     <div class="form-group col-md-6">
                                                         <label>pais <span class="required_sign">*</span></label>
@@ -211,20 +215,20 @@
                                                     </div>
                                                     <div class="form-group col-md-6">
                                                         <label>Cidade <span class="required_sign">*</span></label>
-                                                        <input class="form-control required" placeholder="Insira a cidade" value="" type="text">
+                                                        <input class="form-control required" id="cidade_entrega" placeholder="Insira a cidade" value="" type="text">
                                                     </div>
                                                     <div class="form-group col-md-6">
                                                         <label>Estado <span class="required_sign">*</span></label>
-                                                        <input class="form-control required" placeholder="Insira o estado" value="" type="text">
+                                                        <input class="form-control required" id="estado_entrega" placeholder="Insira o estado" value="" type="text">
                                                     </div>
                                                     
                                                     <div class="form-group col-md-12">
                                                         <label>Notas para o entregador</label>
-                                                        <textarea rows="3" class="form-control" placeholder="Notas de entrega"></textarea>
+                                                        <textarea rows="3" class="form-control" id="nota_entrega" placeholder="Notas de entrega"></textarea>
                                                     </div>
                                                     <div class="form-group col-md-12">
                                                         <div class="form-wizard-buttons text-md-right">
-                                                        	<button class="btn btn-primary btn-submit btn-next" type="button">Continue</button>
+                                                        	<button class="btn btn-primary btn-submit btn-next" onclick="document.getElementById('forma-pagamento-menu').click()" type="button">Continue</button>
                                                     	</div>
                                                     </div>
                                                 </div>
@@ -236,7 +240,7 @@
                             <div class="card">
                                 <div class="card-header form-wizard-step">
                                     <h5>
-                                        <a class="btn btn-link collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><span>04</span>Forma de Pagamento</a>
+                                        <a class="btn btn-link collapsed" id='forma-pagamento-menu' data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><span>04</span>Forma de Pagamento</a>
                                     </h5>
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
@@ -247,21 +251,21 @@
                                                     <div class="form-check">
                                                         <input class="form-check-input" required type="radio" name="payment_option" id="exampleRadios3" value="option3" checked>
                                                         <label class="form-check-label" for="exampleRadios3">Pix</label>
-                                                        <p data-method="option3" class="payment-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                                                        <p data-method="option3" class="payment-text">Carregando qr code... </p>
                                                     </div>
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="radio" name="payment_option" id="exampleRadios4" value="option4">
-                                                        <label class="form-check-label" for="exampleRadios4">Credit Card</label>
-                                                        <p data-method="option4" class="payment-text">Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                                                        <label class="form-check-label" for="exampleRadios4">Credito</label>
+                                                        <p data-method="option4" class="payment-text">Será cobrado do seu cartão de credito</p>
                                                     </div>
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="radio" name="payment_option" id="exampleRadios5" value="option5">
                                                         <label class="form-check-label" for="exampleRadios5">Boleto</label>
-                                                        <p data-method="option5" class="payment-text">Pay via PayPal; you can pay with your credit card if you don't have a PayPal account.</p>
+                                                        <p data-method="option5" class="payment-text">O boleto seguira juntamente a mercadoria</p>
                                                     </div>
                                                 </div>
                                                 <div class="form-wizard-buttons text-md-right">
-                                                    <button class="btn btn-primary btn-next" type="button">Continue</button>
+                                                    <button onclick="document.getElementById('ultimo-menu').click()" class="btn btn-primary btn-next" type="button">Continue</button>
                                                 </div>
                                             </div>
                                     	</div>
@@ -271,7 +275,7 @@
                             <div class="card ord_tab">
                                 <div class="card-header form-wizard-step">
                                     <h5>
-                                        <a class="btn btn-link collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><span>05</span>Resumo</a>
+                                        <a class="btn btn-link collapsed" id='ultimo-menu' data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><span>05</span>Resumo</a>
                                     </h5>
                                 </div>
                                	<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
@@ -289,23 +293,28 @@
                                                         </tr>
                                                     </thead>
                                                     <tbody>
+                                                        
+                                                    <?php
+                                                        foreach($produtos as $linha){
+                                                        
+                                                        $valor=(float) $linha['valor'];
+                                                        $valor=$valor*$linha['qtd'];
+                                                    echo'
                                                         <tr class="row-2">
-                                                            <td class="product-name">Variable product 001</td>
-                                                            <td class="product-price">$ 78.00</td>
-                                                            <td class="product-quantity">2</td>
-                                                            <td class="product-subtotal">$ 156.00</td>
+                                                            <td class="product-name">'.$linha['nome'].'</td>
+                                                            <td class="product-price">$ '.$linha['valor'].'</td>
+                                                            <td class="product-quantity">'.$linha['qtd'].'</td>
+                                                            <td class="product-subtotal">'.$valor.'</td>
                                                         </tr>
-                                                        <tr class="row-3">
-                                                            <td class="product-name">Ornare sed consequat</td>
-                                                            <td class="product-price">$ 81.00</td>
-                                                            <td class="product-quantity">1</td>
-                                                            <td class="product-subtotal">$ 81.00</td>
-                                                        </tr>
+                                                        ';
+                                                        }
+                                                        ?>
+
                                                     </tbody>
                                                     <tfoot>
                                                         <tr class="row-4">
                                                             <td class="text-left" colspan="3">Subtotal</td>
-                                                            <td class="pr_subtotal">R$237.00</td>
+                                                            <td class="pr_subtotal"><?php echo $total;?></td>
                                                         </tr>
                                                         <!--<tr class="row-5">
                                                             <td class="text-left" colspan="3">Cupom de desconto</td>
@@ -313,7 +322,7 @@
                                                         </tr>-->
                                                         <tr class="row-6">
                                                             <td class="text-left" colspan="3">Total</td>
-                                                            <td class="product-subtotal">R$232.00</td>
+                                                            <td class="product-subtotal">R$<?php echo $total;?></td>
                                                         </tr>
                                                     </tfoot>
                                                 </table>
@@ -337,14 +346,14 @@
                     </div>
                     <div class="ci-caption">
                         <ul>
-                        	<li>Subtotal <span>R$237.00</span></li>
+                        	<li>Subtotal <span>R$ <?php echo $total; ?></span></li>
                             <li>Frete <span>Gratis</span></li>
                             <!--<li>Codigo de desconto <span>-$5.00</span></li>-->
                         </ul>
                     </div>
                     <div class="ci-btn">
                         <ul>
-                        	<li>Total<span>R$232.00</span></li>
+                        	<li>Total<span>R$ <?php echo $total;?></span></li>
                         </ul>
                     </div>
                 </div>
