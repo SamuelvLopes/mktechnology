@@ -1138,3 +1138,102 @@ CRITICAL - 2022-01-27 11:36:35 --> Call to a member function getResult() on bool
 #4 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
 #5 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #6 {main}
+CRITICAL - 2022-01-27 14:30:41 --> Invalid argument supplied for foreach()
+#0 /app/myapp/app/Controllers/Carrinho.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Carrinho->mini_cart()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 14:30:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/app/Controllers/Carrinho.php(56): count()
+#2 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Carrinho->count()
+#3 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 15:01:02 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-01-27 15:01:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Controllers/Home.php(15): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-27 15:02:26 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-01-27 15:02:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Controllers/Home.php(15): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-27 15:02:44 --> Invalid argument supplied for foreach()
+#0 /app/myapp/app/Controllers/Carrinho.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Carrinho->mini_cart()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 15:02:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/app/Controllers/Carrinho.php(56): count()
+#2 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Carrinho->count()
+#3 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 15:14:41 --> Class 'App\Controllers\pp\Libraries\Template\Template' not found
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 15:14:53 --> Class 'App\Controllers\app\Libraries\Template\Template' not found
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 15:15:15 --> syntax error, unexpected '.'
+#0 /app/myapp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/myapp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /app/myapp/system/CodeIgniter.php(790): class_exists()
+#5 /app/myapp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-27 15:15:57 --> Class 'App\Controllers\App\Libraries\Template\Template' not found
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 15:17:03 --> Invalid argument supplied for foreach()
+#0 /app/myapp/app/Controllers/Carrinho.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Carrinho->mini_cart()
+#2 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 15:17:03 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/app/Controllers/Carrinho.php(56): count()
+#2 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Carrinho->count()
+#3 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

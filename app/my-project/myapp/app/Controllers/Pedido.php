@@ -6,7 +6,7 @@ class Pedido extends BaseController
 {
     public function index(){
 
-        
+        phpinfo();
 
     }
 

@@ -1,0 +1,7 @@
+FROM bitnami/codeigniter:latest
+
+WORKDIR /app
+
+COPY . .
+
+EXPOSE 80000

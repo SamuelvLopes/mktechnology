@@ -1,0 +1,9 @@
+FROM bitnami/codeigniter:4
+
+WORKDIR /app
+
+COPY myapp/app/Controllers/ myapp/app/Controllers/
+COPY myapp/app/public/ myapp/app/public/
+
+
+EXPOSE 8000

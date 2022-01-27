@@ -3,6 +3,7 @@
 namespace App\Controllers;
 use App\Models\Basic;
 use App\Libraries\Template;
+
 class Home extends BaseController
 {
     public function index(){
